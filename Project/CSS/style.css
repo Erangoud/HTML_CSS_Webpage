@@ -1,0 +1,319 @@
+html{
+    font-family: "helvetica neue","Arial",sans-serif;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+p{
+    color: #5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "helvetica neue","Arial",sans-serif;
+
+}
+header{
+    background-color: white;
+    height: 80px;   
+}
+#header-container{
+    width: 75%;
+    margin: auto;   
+}
+.col-3{
+    width: 33%;
+    float: left;  
+}
+.logo{
+    padding-top: 30px
+}
+.menu{
+    margin-top: 32px;
+}
+.menu li{
+    list-style: none; 
+    display: inline;
+    font-size: .85em;
+    color: #8e8e8e;
+    padding-right: 30px;
+}
+
+.getStartedBTN{
+    background-color: #588b3d;
+    border-radius: 28px;
+    border:none;
+    padding: 10px 26px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 17px;
+    float: right;
+}
+#top-section-main{
+    background-image: url(../images/1087736.jpg);
+    height: 656px;
+    border: none;
+    background-size: cover;   /* Ensures the image covers the entire section */   
+}
+#top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1{
+    color: white;
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 87px;
+    margin-bottom: 5px;
+    
+}
+
+#top-section-content p{
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+.play-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px 0 110px 0 ;  
+}
+
+.main-form h6{
+    font-family: sans-serif;
+    font-size: .9em;
+    font-weight:100;
+    color: white;
+    text-align: center;
+}
+.main-form input{
+    margin: 0;
+    width: 30%;
+    height: 29px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    border: none;  
+}
+.main-form button{
+    background-color: forestgreen;
+    border: none;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    height: 29px;
+    width: 30%;
+    font-family: sans-serif;
+    color: white;
+}
+
+#feature-section {
+    padding-top: 100px;
+}
+.feature-section-title{
+    width: 70%;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5em;
+    margin: auto;
+}
+.feature-content{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+}
+.feature-content .col-3 img{
+    width: 100%;   
+}
+.feature-content .col-3 p{
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+.feature-content .col-3{
+    padding: 10px;
+    width: 30%;
+}
+
+
+.col-2{
+    float: left;
+    width: 48%;
+}
+#showcase1-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.showcase1pic{
+    width: 100%;
+    margin-top: 17%
+}
+
+.feature-text{
+    padding: 100px;
+    /*padding-left: 50px;*/
+}
+
+.section-title{
+    width: 72%;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.3em;  
+}
+.section-left{
+    width:70%;
+    padding: 20px 10px 10px 10px;
+    margin: auto;
+}
+#showcase2-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    clear: both;
+}
+.showcase2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;  /* Ensures floated elements are contained */
+}
+.showcase2pic {
+    width: 101%;
+}
+.theory-content {
+    padding: 30px; /* Fix: Removed 100% */
+}
+.heading {
+    width: 62%; 
+    margin: auto;
+    font-weight: 100;
+    line-height: 2.2em;
+} 
+.para-content {
+    width: 71%;
+    padding: 15px 10px 10px 10px;
+    margin: auto;
+}
+.col-4 {
+    float: left;
+    width: 50%;  /* Fix: 50% instead of 30% */
+}
+
+
+#showcase3-container{
+    background-image: url(../images/final.jpg);
+    height: 630px;
+    border: none;
+    background-size: cover;
+}
+
+.heading3{
+    color: floralwhite;
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+}
+.col-1 p {
+    text-align: center;
+    color: white; 
+    font-size: 1.6em;
+    font-weight: 299;
+    margin:0;
+    padding-bottom: 12%;
+}
+.signupBTN{
+    background-color: #6dc77a;
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+    padding: 18px 88px;   
+}
+.signupBTN:hover{
+    background-color: red
+}
+
+.signupform{
+    background-color:#f6f8fa;
+    margin-right: 200px;
+    padding: 0px 50px 10px 50px;
+    
+}
+.signupform h6{
+    color: black;
+    padding-top: 15px;
+    font-size: 0.9em;
+    text-align: center;
+}
+.top-margin{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+input{
+    margin: 0;
+    width:99%;
+    height: 47px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    border: none;
+    margin-top: 15px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    background-color: #6dc77a;
+    color: #ffffff;
+    border: none;
+    margin-top: 15px
+}
+footer{
+    background-image: url(../images/Gun.jpg);
+    clear: both;
+    height: 500px;   
+    width: 1513px;
+    margin: auto;
+    background-position: 50% 50%; /* image X and Y axis */
+}
+.social-footer{
+    width: 33%;
+    float: left;
+    height: 40%;
+}
+.social-footer:hover{
+    background-color: #c4596e;
+    opacity: .5;
+}
+.center{
+    width: 50px;
+    margin: auto;
+    padding-top: 75px;
+}
+.copyright{
+    color:#ffff;
+    text-align: center;
+    display: block;
+}
+
